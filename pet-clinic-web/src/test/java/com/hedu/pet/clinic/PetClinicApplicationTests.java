@@ -1,4 +1,4 @@
-package com.hedu;
+package com.hedu.pet.clinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -4,15 +4,15 @@ import java.time.LocalDate;
 
 public class Pet {
 
-    private PetType petType;
+    private clinic.model.PetType petType;
     private Owner owner;
     private LocalDate birthDate;
 
-    public PetType getPetType() {
+    public clinic.model.PetType getPetType() {
         return petType;
     }
 
-    public void setPetType(PetType petType) {
+    public void setPetType(clinic.model.PetType petType) {
         this.petType = petType;
     }
 
