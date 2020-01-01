@@ -2,17 +2,17 @@ package com.hedu.pet.clinic.model;
 
 import java.time.LocalDate;
 
-public class Pet {
+public class Pet extends BaseEntity {
 
-    private clinic.model.PetType petType;
+    private PetType petType;
     private Owner owner;
     private LocalDate birthDate;
 
-    public clinic.model.PetType getPetType() {
+    public PetType getPetType() {
         return petType;
     }
 
-    public void setPetType(clinic.model.PetType petType) {
+    public void setPetType(PetType petType) {
         this.petType = petType;
     }
 
